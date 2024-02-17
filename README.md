@@ -25,8 +25,29 @@ Se desideri contribuire a questo repository, puoi farlo attraverso le pull reque
 5. **Pull Request**: Apri una pull request verso questo repository principale.
 
     - Assicurati di descrivere chiaramente le modifiche apportate.
-    - Se carichi un progetto, è preferibile che tu comunichi anche la sua valutazione.
     - Nota che, facendo una pull request, rinunci alla possibilità di reclamare i file che invii.
+  
+### Struttura File
+
+Esempio:
+```bash
+.
+├── 1_Primo Anno
+│   └── AA 2021
+│       ├── 0_Logica Algebra e Geometria (6CFU)
+│       │   └── 0_Appunti.pdf
+│       ├── 0_Programmazione Procedurale (9CFU)
+│       │   ├── 4_Progetto [20]
+│       │   │   ├── makefile
+│       │   │   ├── Progetto pp.pdf
+│       │   │   ├── relazione.docx
+│       │   │   └── unione_e_differenza_linguaggi.c
+```
+
+**Note:**
+- Se non presente crea la cartella dell'anno accademico in cui hai seguito il corso prima di caricarlo. 
+- Se non presente crea la cartella del corso all'interno dell'anno accademico. (Esempio: `NomeCorso (N CFU)`).
+- Se carichi un progetto, è preferibile che tu comunichi anche la sua valutazione. (Esempio: `Progetto [Voto]`)
 
 ## Avvertenze
 
