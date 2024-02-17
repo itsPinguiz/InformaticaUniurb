@@ -1,0 +1,19 @@
+:autocmd BufNewFile *.c 0r ~/.vim/templates/template.c
+source $VIMRUNTIME/mswin.vim
+behave mswin
+syntax on
+
+
+set number 
+set tabstop=4 
+set softtabstop=4
+set shiftwidth=4
+set autoindent  
+set background=dark
+colorscheme darkblue 
+set hlsearch
+set incsearch
+set guifont=Monospace\ Regular\ 13
+set textwidth=108
+set ignorecase
+

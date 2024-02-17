@@ -1,0 +1,159 @@
+NuSMV > pick_state -r
+NuSMV > simulate -p  
+********  Simulation Starting From State 2.1   ********
+Trace Description: Simulation Trace 
+Trace Type: Simulation
+  -> State: 2.1 <-
+    tag1.status = idle
+    tag1.id = 0ud10_0
+    tag2.status = idle
+    tag2.id = 0ud10_0
+    tag3.status = idle
+    tag3.id = 0ud10_0
+    reader.status = signaling
+    reader.reading_id = 0ud10_0
+    reader.accepted_id = 0ud10_1023
+    reader.read_tags = 0
+    reader.tree_level = 0
+    reader.actual_bit = 0ud1_0
+    rnd1 = 1
+    rnd2 = 1
+    rnd3 = 1
+    generated_number1 = 433
+    generated_number2 = 433
+    generated_number3 = 433
+    reader.count_responding_tags = 0
+  -> State: 2.2 <-
+    tag1.status = responding
+    tag2.status = responding
+    tag3.status = responding
+    reader.status = waiting
+    generated_number1 = 434
+    generated_number2 = 434
+    generated_number3 = 434
+    reader.count_responding_tags = 3
+  -> State: 2.3 <-
+    tag1.status = colliding
+    tag2.status = colliding
+    tag3.status = colliding
+    reader.status = resolving_collision
+    rnd1 = 0
+    rnd2 = 0
+    rnd3 = 0
+  -> State: 2.4 <-
+    tag1.status = idle
+    tag2.status = idle
+    tag3.status = idle
+    reader.status = signaling
+    reader.tree_level = 1
+    reader.count_responding_tags = 0
+  -> State: 2.5 <-
+    tag1.status = responding
+    tag2.status = responding
+    tag3.status = responding
+    reader.status = waiting
+    generated_number1 = 435
+    generated_number2 = 435
+    generated_number3 = 435
+    reader.count_responding_tags = 3
+  -> State: 2.6 <-
+    tag1.status = colliding
+    tag2.status = colliding
+    tag3.status = colliding
+    reader.status = resolving_collision
+    rnd1 = 1
+    rnd3 = 1
+  -> State: 2.7 <-
+    tag1.status = idle
+    tag1.id = 0ud10_1
+    tag2.status = idle
+    tag3.status = idle
+    tag3.id = 0ud10_1
+    reader.status = signaling
+    reader.tree_level = 2
+    reader.count_responding_tags = 0
+  -> State: 2.8 <-
+    tag2.status = responding
+    reader.status = waiting
+    generated_number1 = 436
+    generated_number2 = 436
+    generated_number3 = 436
+    reader.count_responding_tags = 1
+  -> State: 2.9 <-
+    reader.status = reading
+    rnd2 = 1
+    generated_number1 = 437
+    generated_number3 = 437
+  -> State: 2.10 <-
+    tag2.status = success
+    reader.status = idle
+    reader.accepted_id = 0ud10_0
+    reader.read_tags = 1
+    generated_number1 = 438
+    generated_number3 = 438
+    reader.count_responding_tags = 0
+  -> State: 2.11 <-
+    reader.status = signaling
+    reader.reading_id = 0ud10_1
+    reader.accepted_id = 0ud10_1023
+    generated_number1 = 439
+    generated_number3 = 439
+  -> State: 2.12 <-
+    tag1.status = responding
+    tag3.status = responding
+    reader.status = waiting
+    generated_number1 = 440
+    generated_number3 = 440
+    reader.count_responding_tags = 2
+  -> State: 2.13 <-
+    tag1.status = colliding
+    tag3.status = colliding
+    reader.status = resolving_collision
+    rnd1 = 0
+  -> State: 2.14 <-
+    tag1.status = idle
+    tag1.id = 0ud10_2
+    tag3.status = idle
+    tag3.id = 0ud10_3
+    reader.status = signaling
+    reader.reading_id = 0ud10_2
+    reader.tree_level = 3
+    reader.count_responding_tags = 0
+  -> State: 2.15 <-
+    tag1.status = responding
+    reader.status = waiting
+    generated_number1 = 441
+    generated_number3 = 441
+    reader.count_responding_tags = 1
+  -> State: 2.16 <-
+    reader.status = reading
+    rnd1 = 1
+    generated_number3 = 442
+  -> State: 2.17 <-
+    tag1.status = success
+    reader.status = idle
+    reader.accepted_id = 0ud10_2
+    reader.read_tags = 2
+    generated_number3 = 443
+    reader.count_responding_tags = 0
+  -> State: 2.18 <-
+    reader.status = signaling
+    reader.reading_id = 0ud10_3
+    reader.accepted_id = 0ud10_1023
+    generated_number3 = 444
+  -> State: 2.19 <-
+    tag3.status = responding
+    reader.status = waiting
+    generated_number3 = 445
+    reader.count_responding_tags = 1
+  -> State: 2.20 <-
+    reader.status = reading
+  -> State: 2.21 <-
+    tag3.status = success
+    reader.status = idle
+    reader.accepted_id = 0ud10_3
+    reader.read_tags = 3
+    reader.count_responding_tags = 0
+  -> State: 2.22 <-
+    reader.status = terminated
+    reader.accepted_id = 0ud10_1023

@@ -1,0 +1,8 @@
+NuSMV > check_property  
+-- specification AG (reader.read_tags = 3 -> AX reader.status = terminated)  is true
+-- specification EF (tag1.status = responding -> tag1.status = success)  is true
+-- specification EF (tag2.status = responding -> tag2.status = success)  is true
+-- specification EF (tag3.status = responding -> tag3.status = success)  is true
+-- specification AG (((tag1.status = success & tag2.status = success) & tag3.status = success) -> AF reader.status = terminated)  is true
+-- specification  F (reader.status = reading &  X ((tag1.status = success | tag2.status = success) | tag3.status = success))  is true
+-- specification  G (reader.read_tags = 0 ->  F reader.read_tags = 1)  is true

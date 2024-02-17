@@ -1,0 +1,270 @@
+-- Questo modello rappresenta un sistema composto da 3 Tag RFID e un reader RFID.
+-- Il problema che si é affrontato é la collisione tra i tag, ovvero la situazione
+-- in cui piú tag rispondono al reader contemporaneamente. Per risolvere questo problema
+-- sono stati utilizzati metodi non deterministici, come da specifica.
+--
+-- Quando un tag riceve un segnale dal reader, genera un bit in maniera pseudocasuale.
+-- In base a quanti tag rispondono al reader, puó comportarsi in maniera diversa:
+-- - se un solo tag risponde, allora il reader legge il suo id e lo comunica al tag;
+-- - se piú tag rispondono, allora il reader risolve la collisione, ovvero chiede di generare un nuovo bit;
+-- - se nessun tag risponde, il reader torna in idle e controlla quelli che hanno generato 1.
+-- In questo modo, il reader riesce a leggere tutti i tag in maniera non deterministica.
+
+-- MODULO PRINCIPALE
+MODULE main
+    VAR
+        -- dichiarazione tag e reader
+        tag1 : Tag(reader,rnd1);
+        tag2 : Tag(reader,rnd2);
+        tag3 : Tag(reader,rnd3);
+        reader : Reader(tag1,tag2,tag3);
+
+        -- dichiarazione variabili per generare numeri casuali
+        rnd1 : 0..1;
+        rnd2 : 0..1;
+        rnd3 : 0..1;
+        generated_number1 : 300..800;
+        generated_number2 : 300..800;
+        generated_number3 : 300..800;
+
+    ASSIGN
+        -- generazione numeri casuali
+        init(rnd1) := {0,1};
+        init(rnd2) := {0,1};
+        init(rnd3) := {0,1};
+
+        init(generated_number1) := {300,372,433,490,517};
+        init(generated_number2) := {300,372,433,490,517};
+        init(generated_number3) := {300,372,433,490,517};
+
+        next(rnd1) :=
+            case
+                -- genero un numero casuale da aggiungere al mio id
+                tag1.status = responding : (generated_number1 mod 3) = 0 ? 1 : 0;
+
+                TRUE : rnd1;
+            esac;
+        
+        next(generated_number1) := 
+            case
+                -- genero un numero casuale da aggiungere al mio id
+                tag1.status = idle & generated_number1 < 800 : generated_number1 + 1;
+
+                TRUE : generated_number1;
+            esac;
+        
+        next(rnd2) :=
+            case
+                -- genero un numero casuale da aggiungere al mio id
+                tag2.status = responding : (generated_number2 mod 4) = 0 ? 1 : 0;
+
+                TRUE : rnd2;
+            esac;
+        
+        next(generated_number2) := 
+            case
+                -- genero un numero casuale da aggiungere al mio id
+                tag2.status = idle & generated_number2 < 800: generated_number2 + 1;
+
+                TRUE : generated_number2;
+            esac;
+
+        next(rnd3) :=
+            case
+                -- genero un numero casuale da aggiungere al mio id
+                tag3.status = responding : (generated_number3 mod 5) = 0 ? 1 : 0;
+
+                TRUE : rnd3;
+            esac;
+        
+        next(generated_number3) := 
+            case
+                -- genero un numero casuale da aggiungere al mio id
+                tag3.status = idle & generated_number3 < 800: generated_number3 + 1;
+
+                TRUE : generated_number3;
+            esac;
+
+        -- PROPRIETA'
+
+        -- SPECIFICHE LTL
+
+        -- Raggiungibilitá composta:
+        -- prima o poi consecutivamente il reader va in rading e un tag va in success
+        LTLSPEC
+            F((reader.status = reading) & X(tag1.status = success | tag2.status = success | tag3.status = success))
+        
+        -- Liveness:
+        -- invariabilmente se non sono stati letti tag, prima o poi ne verrá letto uno
+        LTLSPEC
+            G((reader.read_tags = 0) -> F(reader.read_tags = 1))
+
+        -- SPECIFICHE CTL
+
+        -- Liveness condizionata al round X:
+        -- a prescindere dallo stato in cui si trova il sistema, é sempre possibile arrivare
+        -- ad un futuro in cui tutti i tag sono stati letti, e il reader dunque termina.
+        CTLSPEC
+            AG((reader.read_tags = 3) -> AX(reader.status = terminated))
+        
+        -- Raggiungibilitá:
+        -- prima o poi se un tag risponde saprá di esser stato letto
+        CTLSPEC 
+            EF((tag1.status = responding) -> (tag1.status = success))
+
+        CTLSPEC 
+            EF((tag2.status = responding) -> (tag2.status = success))
+
+        CTLSPEC 
+            EF((tag3.status = responding) -> (tag3.status = success))
+       
+        -- Liveness:
+        -- invariabilmente se tutti i tag sono stati letti il reader termina
+        CTLSPEC 
+            AG(((tag1.status = success) & (tag2.status = success) & 
+                (tag3.status = success) -> AF((reader.status = terminated)))) 
+
+-- MODULO TAG
+MODULE Tag(reader,rnd)
+    VAR
+        status : {idle, responding, colliding, success}; -- stato del tag
+        id : unsigned word[10]; -- id dinamico del tag
+        
+    ASSIGN
+        init(status) := idle;
+        
+        next(status) :=
+            case
+                -- se il reader ha inviato un segnale, controllo se cerca me e gli rispondo
+                reader.status = signaling & reader.reading_id = id & status = idle      : responding;
+
+                -- se il reader é in collisione e prima gli ho risposto allora sono in collisione
+                status = responding & reader.count_responding_tags > 1                  : colliding;
+
+                -- se il reader sta leggendo il mio id é, allora ho successo
+                reader.status = reading & status = responding : success;
+
+                -- se sono in collisione, passo in idle
+                status = colliding                                                      : idle;
+
+                TRUE : status;
+            esac;
+        
+        init(id) := 0ub10_0;
+        next(id) :=
+            case
+                -- se sono in collisione, allora aggiungo un bit al mio id
+                status = colliding : (id << 1) + extend(word1(bool(rnd)), sizeof(id) - 1);
+
+                TRUE : id;
+            esac;
+
+-- MODULO READER
+MODULE Reader(tag1,tag2,tag3)
+    VAR 
+        status : {idle, signaling, waiting, resolving_collision, reading, terminated}; -- stato del reader
+        reading_id : unsigned word[10]; -- id che sto leggendo
+        accepted_id : word[10]; -- id che ho accettato
+        read_tags : 0..3; -- numero di tag letti
+        tree_level : 0..10; -- livello attuale dell'albero 
+        actual_bit : unsigned word[1]; -- bit attuale relativo al livello dell'albero
+    DEFINE
+        -- conto il numero di tag che mi rispondono
+        count_responding_tags := (tag1.status = responding | tag1.status = colliding ? 1 : 0) +
+                                 (tag2.status = responding | tag2.status = colliding ? 1 : 0) +
+                                 (tag3.status = responding | tag3.status = colliding ? 1 : 0);
+            
+    ASSIGN
+        init(status) := signaling;
+        next(status) :=
+            case
+                -- se sono in idle e non sono alla radice, segnalo 
+                status = idle & read_tags != 3                                 : signaling;
+
+                -- se sono in signaling e aspetto la risposta
+                status = signaling                                             : waiting;
+
+                -- se sono in signaling e mi rispondono piú tag, risolvo la collisione
+                status = waiting & count_responding_tags > 1                   : resolving_collision;
+
+                -- se sono in resolving_collision mando un segnale
+                status = resolving_collision                                   : signaling;
+
+                -- se sono in signaling e mi risponde un solo tag, leggo
+                status = waiting & count_responding_tags = 1                   : reading;
+
+                -- se sono in signaling e non mi risponde nessun tag, torno in idle
+                status = waiting & count_responding_tags = 0 & tree_level != 0 : idle;
+
+                -- se sono in reading ripasso in idle per risalire l'albero
+                status = reading                                               : idle;
+
+                -- se sono in idle e sono alla radice, termino
+                status = idle & read_tags = 3                                  : terminated;
+
+                TRUE                                                           : status;
+            esac;
+        
+        init(tree_level) := 0;
+        next(tree_level) :=
+            case
+                -- se sono in resolving_collision e non sono al livello piú basso, scendo di livello
+                status = resolving_collision & tree_level < 10 : tree_level + 1;
+
+                -- se sono in idle e l'ultimo bit era 1, risalgo di livello
+                status = idle & actual_bit = 0ub1_1 & sizeof(reading_id) > 1 & tree_level > 0 : tree_level - 1;
+                TRUE : tree_level;
+            esac;
+
+        init(reading_id) := 0ub10_0;        
+        next(reading_id) :=
+            case
+                -- aggiungo uno zero alla fine se sono in collisione
+                status = resolving_collision : reading_id << 1; 
+
+                -- cancello l'ultimo bit se sto risalendo l'albero e il nodo da cui risalgo finiva con 1
+                status = idle & actual_bit = 0ub1_1 & sizeof(reading_id) > 1 : reading_id >> 1;
+
+                -- sostituisco l'ultimo bit con 1 se ho appena avuto successo
+                status = idle & actual_bit = 0ub1_0 & sizeof(reading_id) > 1 : reading_id | extend(0ub1_1,sizeof(reading_id) - 1);
+
+                TRUE : reading_id;
+            esac;
+
+        init(accepted_id) := 0ub10_1111111111;
+        next(accepted_id) :=
+            case
+                -- se sono in reading allora comunico al tag che l'ho letto
+                status = reading : reading_id;
+
+                -- se sono in idle resetto il valore
+                status = idle    : 0ub10_1111111111;
+
+                TRUE             : accepted_id;
+            esac;
+
+        init(read_tags) := 0;
+        next(read_tags) :=
+            case
+                -- se sono in reading incremento il numero di tag letti
+                status = reading & read_tags < 3 : read_tags + 1;
+
+                TRUE                             : read_tags;
+            esac;
+
+        init(actual_bit) := 0ub1_0;
+        next(actual_bit) :=
+        case
+            -- scelgo il bit da considerare in base al livello dell'albero
+            tree_level = 0 : reading_id[0:0];
+            tree_level = 1 : reading_id[1:1];
+            tree_level = 2 : reading_id[2:2];
+            tree_level = 3 : reading_id[3:3];
+            tree_level = 4 : reading_id[4:4];
+            tree_level = 5 : reading_id[5:5];
+            tree_level = 6 : reading_id[6:6];
+            tree_level = 7 : reading_id[7:7];
+            tree_level = 8 : reading_id[8:8];
+            tree_level = 9 : reading_id[9:9];
+            TRUE: actual_bit;
+        esac;
