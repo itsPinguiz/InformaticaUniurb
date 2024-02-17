@@ -10,7 +10,7 @@ Se desideri contribuire a questo repository, puoi farlo attraverso le pull reque
 2. **Clone**: Clona il tuo fork sul tuo computer locale.
 
     ```bash
-    git clone https://github.com/tuo-nome-utente/informatica-university-notes.git
+    git clone https://github.com/itsPinguiz/InformaticaUniurb.git
     ```
 
 3. **Aggiungi Appunti**: Aggiungi o modifica gli appunti nella cartella appropriata. Assicurati di seguire una struttura organizzativa chiara.
