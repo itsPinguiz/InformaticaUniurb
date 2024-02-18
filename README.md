@@ -47,7 +47,8 @@ Esempio:
 **Note:**
 - Se non presente crea la cartella dell'anno accademico in cui hai seguito il corso prima di caricarlo. 
 - Se non presente crea la cartella del corso all'interno dell'anno accademico. (Esempio: `NomeCorso (N CFU)`).
-- Se carichi un progetto, è preferibile che tu comunichi anche la sua valutazione. (Esempio: `Progetto [Voto]`)
+- Se carichi un progetto, è preferibile che tu comunichi anche la sua valutazione. (Esempio: `Progetto [Voto]`).
+- Quando carichi qualcosa di nuovo, aggiungi il tuo nome, e cosa hai aggiunto nella tabella dei contenuti (`README.md`).
 
 ## Avvertenze
 
@@ -89,7 +90,7 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 | Materia         | Studente    | Contenuto  | 
 | ------------- |:-------------:| -----:|
 | Reti di Calcolatori |      |   |
-| Liguaggi di Programmazione e Verifica del Software |   Stefano Zizzi, Luis Frasheri   | 
+| Liguaggi di Programmazione e Verifica del Software |   Stefano Zizzi, Luis Frasheri   | Porgetto |
 | Basi di Dati | Stefano Zizzi     | |
 |  Sistemi per l'Internet Of Things | Stefano Zizzi    | Relazione, Appunti  |
 | Programmazione Logica e Funzionale |       |  |
