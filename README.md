@@ -65,7 +65,7 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 | ------------- |:-------------:| -----:|
 | Reti Logiche  | Stefano Zizzi     |    Progetto |
 | Programmazione Procedurale  | Stefano Zizzi     |    Progetto |
-|  Logica Algebra e Geometria |      |     |
+|  Logica Algebra e Geometria |   Giuseppe   |   Appunti  |
 | Analisi 1 | Stefano Zizzi     | Esercizi Svolti, Appunti 
 | Algoritmi e Strutture Dati | Stefano Zizzi     |    Progetto |
 | Architettura degli Elaboratori  | Stefano Zizzi     | Appunti, Progetto |
@@ -76,7 +76,7 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 | Materia         | Studente    | Contenuto  | 
 | ------------- |:-------------:| -----:|
 | Analisi 2 | Stefano Zizzi     |    Appunti, Esercizi Svolti |
-| Probabilità e Statistica  |      |    |
+| Probabilità e Statistica  |   Giuseppe   |  Appunti,Calcolatore gaussiana  |
 |  Sistemi Operativi |      |     |
 | Programmazione e Modellazione ad Oggetti | Stefeano Zizzi, Luis Frasheri | Progetto |  
 | Elaborazione Numerica dei Segnali | Stefano Zizzi     | Esercizi Svolti, Appunti 
