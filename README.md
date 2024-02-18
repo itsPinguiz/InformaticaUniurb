@@ -63,22 +63,22 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 
 | Materia         | Studente    | Contenuto  | 
 | ------------- |:-------------:| -----:|
-| Reti Logiche  | Stefano Zizzi     |    Progetto |
-| Programmazione Procedurale  | Stefano Zizzi     |    Progetto |
-|  Logica Algebra e Geometria |      |     |
-| Analisi 1 | Stefano Zizzi     | Esercizi Svolti, Appunti 
-| Algoritmi e Strutture Dati | Stefano Zizzi     |    Progetto |
-| Architettura degli Elaboratori  | Stefano Zizzi     | Appunti, Progetto |
+| Reti Logiche  | Stefano Zizzi,Giuseppe     |    Appunti,Progetto |
+| Programmazione Procedurale  | Stefano Zizzi,Giuseppe     |    Appunti,Progetto |
+|  Logica Algebra e Geometria |   Giuseppe   |   Appunti  |
+| Analisi 1 | Stefano Zizzi,Giuseppe     | Esercizi Svolti, Appunti 
+| Algoritmi e Strutture Dati | Stefano Zizzi,Giuseppe     |    Appunti,Progetto |
+| Architettura degli Elaboratori  | Stefano Zizzi,Giuseppe     | Appunti, Progetto |
 | Umano Digitale | Stefano Zizzi     | Appunti |
 
 ### Secondo Anno
 
 | Materia         | Studente    | Contenuto  | 
 | ------------- |:-------------:| -----:|
-| Analisi 2 | Stefano Zizzi     |    Appunti, Esercizi Svolti |
-| Probabilità e Statistica  |      |    |
-|  Sistemi Operativi |      |     |
-| Programmazione e Modellazione ad Oggetti | Stefeano Zizzi, Luis Frasheri | Progetto |  
+| Analisi 2 | Stefano Zizzi,Giuseppe     |    Appunti, Esercizi Svolti |
+| Probabilità e Statistica  |   Giuseppe   |  Appunti,Calcolatore gaussiana  |
+|  Sistemi Operativi |   Giuseppe   |  Appunti(non completi)   |
+| Programmazione e Modellazione ad Oggetti | Stefeano Zizzi, Luis Frasheri,Giuseppe |  Appunti,Progetto |  
 | Elaborazione Numerica dei Segnali | Stefano Zizzi     | Esercizi Svolti, Appunti 
 | Fisica Generale | Stefano Zizzi     | Appunti,Esercizi Svolti |
 |  Ingegneria e Architettura del Software |     |  |

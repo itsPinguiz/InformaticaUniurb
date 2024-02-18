@@ -1,0 +1,27 @@
+----NOTA LE SEGUENTI INSTRUZIONI VALGONO PER LINUX NON PER WINDOWS O MACOS----
+Ricordarsi i importare tutte le librerie e avere python installato librerie:
+con pip -> 
+	pip install numpy
+	pip install matplotlib
+	pip install scypi
+con pacman ->
+	sudo pacman -S python
+	sudo pacman -S python-numpy
+	sudo pacman -S python-matplotlib 
+	sudo pacman -S python-scipy 
+successivamente recarsi nella cartella dove avete scaricato il file ed eseguitelo
+	python normale.py 
+	
+	Inserisci la media della distribuzione: mi ovvero (μ)
+	Inserisci la deviazione standard della distribuzione: sigma ovvero (σ)
+	
+	Qua inserisci gli estremi puoi anche mettere estremi infiniti con (inf)
+	Inserisci valore estremo inferiore a estremo superiore b
+	Inserisci il valore di a: -inf (y)
+	Inserisci il valore di b: +inf (z)
+	
+	La probabilità Pr(y <= X <= z) è del: ? %
+	
+	Ti verrà plottato il grafico con la relativa area sottesa
+
+
