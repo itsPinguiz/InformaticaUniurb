@@ -64,24 +64,24 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 
 | Materia         | Studente    | Contenuto  | 
 | ------------- |:-------------:| -----:|
-| Reti Logiche  | Stefano Zizzi,Giuseppe     |    Appunti,Progetto |
-| Programmazione Procedurale  | Stefano Zizzi,Giuseppe     |    Appunti,Progetto |
-|  Logica Algebra e Geometria |   Giuseppe   |   Appunti  |
-| Analisi 1 | Stefano Zizzi,Giuseppe     | Esercizi Svolti, Appunti 
-| Algoritmi e Strutture Dati | Stefano Zizzi,Giuseppe     |    Appunti,Progetto |
-| Architettura degli Elaboratori  | Stefano Zizzi,Giuseppe     | Appunti, Progetto |
-| Umano Digitale | Stefano Zizzi     | Appunti |
+| Reti Logiche  | Stefano Zizzi, Giuseppe     |    Appunti, Progetto |
+| Programmazione Procedurale  | Stefano Zizzi, Giuseppe     |    Appunti, Progetto |
+|  Logica Algebra e Geometria |   Giuseppe, Arlind Pecmarkaj (AA 2020)   |   Appunti  |
+| Analisi 1 | Stefano Zizzi, Giuseppe, Arlind Pecmarkaj (AA 2020)     | Esercizi Svolti, Appunti |
+| Algoritmi e Strutture Dati | Stefano Zizzi,Giuseppe     |    Appunti, Progetto |
+| Architettura degli Elaboratori  | Stefano Zizzi, Giuseppe     | Appunti, Progetto |
+| Umano Digitale | Stefano Zizzi, Arlind Pecmarkaj (AA 2020)     | Appunti |
 
 ### Secondo Anno
 
 | Materia         | Studente    | Contenuto  | 
 | ------------- |:-------------:| -----:|
-| Analisi 2 | Stefano Zizzi,Giuseppe     |    Appunti, Esercizi Svolti |
+| Analisi 2 | Stefano Zizzi, Giuseppe, Arlind Pecmarkaj (AA 2021)     |    Appunti, Esercizi Svolti |
 | Probabilità e Statistica  |   Giuseppe   |  Appunti,Calcolatore gaussiana  |
-|  Sistemi Operativi |   Giuseppe   |  Appunti(non completi)   |
+|  Sistemi Operativi |   Giuseppe,  Arlind Pecmarkaj   |  Appunti(non completi), Vecchi esami svolti   |
 | Programmazione e Modellazione ad Oggetti | Stefeano Zizzi, Luis Frasheri,Giuseppe |  Appunti,Progetto |  
 | Elaborazione Numerica dei Segnali | Stefano Zizzi     | Esercizi Svolti, Appunti 
-| Fisica Generale | Stefano Zizzi     | Appunti,Esercizi Svolti |
+| Fisica Generale | Stefano Zizzi, Arlind Pecmarkaj     | Appunti,Esercizi Svolti |
 |  Ingegneria e Architettura del Software |     |  |
 | Simulazione Numerica dei Segnali | Stefano Zizzi     | Progetto |
 
@@ -90,9 +90,9 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 | Materia         | Studente    | Contenuto  | 
 | ------------- |:-------------:| -----:|
 | Reti di Calcolatori |      |   |
-| Liguaggi di Programmazione e Verifica del Software |   Stefano Zizzi, Luis Frasheri   | Porgetto |
-| Basi di Dati | Stefano Zizzi     | |
+| Liguaggi di Programmazione e Verifica del Software |   Stefano Zizzi, Luis Frasheri, Arlind Pecmarkaj   | Progetto, Appunti |
+| Basi di Dati | Arlind Pecmarkaj    | Riassunto completo |
 |  Sistemi per l'Internet Of Things | Stefano Zizzi    | Relazione, Appunti  |
-| Programmazione Logica e Funzionale |       |  |
+| Programmazione Logica e Funzionale |  Arlind Pecmarkaj     | Progetto |
 
 
