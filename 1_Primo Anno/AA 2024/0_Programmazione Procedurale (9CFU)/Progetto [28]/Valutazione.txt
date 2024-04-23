@@ -1,0 +1,96 @@
+VOTO (se sufficiente, vale fino alla sessione invernale 2025 compresa):
+-----------------------------------------------------------------------
+
+28/30
+
+
+LINGUA E IMPAGINAZIONE:
+-----------------------
+
+OK.
+
+
+SPECIFICA DEL PROBLEMA:
+-----------------------
+
+OK.
+
+
+ANALISI DEL PROBLEMA:
+---------------------
+
+Nelle relazioni bisogna parlare anche dell'algoritmo di Gauss [-1].
+
+
+PROGETTAZIONE DELL'ALGORITMO:
+-----------------------------
+
+Quanto riportato nella sezione 3.1.5 non costituisce scelte di progetto ma dati di fatto [-1].
+
+
+QUALITÀ DEL SOFTWARE:
+---------------------
+
+
+- LEGGIBILE?
+  ----------
+
+  OK.
+
+
+- ARTICOLATO?
+  -----------
+
+  OK.
+
+
+- STRUTTURATO?
+  ------------
+
+  OK.
+
+
+- PORTABILE?
+  ----------
+
+  OK.
+
+
+- EFFICIENTE?
+  -----------
+
+  OK.
+
+
+- MAKEFILE?
+  ---------
+
+  OK.
+
+
+- COMPILABILE?
+  ------------
+
+  OK.
+
+
+- FUNZIONANTE (limitazioni/validazione/usabilità)?
+  ------------------------------------------------
+
+  OK.
+
+
+TESTING DEL PROGRAMMA:
+----------------------
+
+OK.
+
+
+VERIFICA DEL PROGRAMMA:
+-----------------------
+
+OK.
+
+
+NOTE:
+-----

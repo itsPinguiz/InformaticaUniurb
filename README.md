@@ -65,7 +65,7 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 | Materia         | Studente    | Contenuto  | 
 | ------------- |:-------------:| -----:|
 | Reti Logiche  | Stefano Zizzi, Giuseppe     |    Appunti, Progetto |
-| Programmazione Procedurale  | Stefano Zizzi, Giuseppe     |    Appunti, Progetto |
+| Programmazione Procedurale  | Stefano Zizzi, Giuseppe, Daniele Sestri (AA 2024)    |    Appunti, Progetto |
 |  Logica Algebra e Geometria |   Giuseppe, Arlind Pecmarkaj (AA 2020)   |   Appunti  |
 | Analisi 1 | Stefano Zizzi, Giuseppe, Arlind Pecmarkaj (AA 2020)     | Esercizi Svolti, Appunti |
 | Algoritmi e Strutture Dati | Stefano Zizzi,Giuseppe     |    Appunti, Progetto |
