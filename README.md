@@ -82,7 +82,7 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 | Programmazione e Modellazione ad Oggetti | Stefeano Zizzi, Luis Frasheri,Giuseppe |  Appunti,Progetto |  
 | Elaborazione Numerica dei Segnali | Stefano Zizzi     | Esercizi Svolti, Appunti 
 | Fisica Generale | Stefano Zizzi, Arlind Pecmarkaj     | Appunti,Esercizi Svolti |
-|  Ingegneria e Architettura del Software |     |  |
+|  Ingegneria e Architettura del Software | Alessio Biagi     | Appunti  |
 | Simulazione Numerica dei Segnali | Stefano Zizzi     | Progetto |
 
 ### Terzo Anno
