@@ -89,10 +89,10 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 
 | Materia         | Studente    | Contenuto  | 
 | ------------- |:-------------:| -----:|
-| Reti di Calcolatori |      |   |
+| Reti di Calcolatori | Stefano Zizzi    |  Appunti, Progetto |
 | Liguaggi di Programmazione e Verifica del Software |   Stefano Zizzi, Luis Frasheri, Arlind Pecmarkaj   | Progetto, Appunti |
-| Basi di Dati | Arlind Pecmarkaj    | Riassunto completo |
+| Basi di Dati | Arlind Pecmarkaj, Stefano Zizzi    | Riassunto completo, Progetto|
 |  Sistemi per l'Internet Of Things | Stefano Zizzi    | Relazione, Appunti  |
-| Programmazione Logica e Funzionale |  Arlind Pecmarkaj     | Progetto |
+| Programmazione Logica e Funzionale |  Arlind Pecmarkaj, Stefano Zizzi     | Progetto, Esami Passati, Progetto |
 
 
