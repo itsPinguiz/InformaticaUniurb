@@ -69,7 +69,7 @@ Grazie per il tuo contributo e per aiutare a creare una risorsa utile per tutti 
 |  Logica Algebra e Geometria |   Giuseppe, Arlind Pecmarkaj (AA 2020)   |   Appunti  |
 | Analisi 1 | Stefano Zizzi, Giuseppe, Arlind Pecmarkaj (AA 2020)     | Esercizi Svolti, Appunti |
 | Algoritmi e Strutture Dati | Stefano Zizzi,Giuseppe     |    Appunti, Progetto |
-| Architettura degli Elaboratori  | Stefano Zizzi, Giuseppe     | Appunti, Progetto |
+| Architettura degli Elaboratori  | Stefano Zizzi, Giuseppe, Daniele Sestri    | Appunti, Progetto |
 | Umano Digitale | Stefano Zizzi, Arlind Pecmarkaj (AA 2020)     | Appunti |
 
 ### Secondo Anno
