@@ -9,6 +9,9 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
 ## Contenuti Presenti
 
 ### Primo Anno
+## Contenuti Presenti
+
+### Primo Anno
 
 <table>
   <thead>
@@ -20,11 +23,13 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
   </thead>
   <tbody>
     <tr>
-       <td>Reti Logiche<br>
+      <td>Reti Logiche<br>
         <small>
           <a href="https://github.com/itsPinguiz/InformaticaUniurb/tree/main/1_Primo%20Anno/AA%202021/0_Reti%20Logiche%20(6CFU)">[2021]</a>
           <a href="https://github.com/itsPinguiz/InformaticaUniurb/tree/main/1_Primo%20Anno/AA%202022/0_Reti%20Logiche%20(9CFU)">[2022]</a>
           <a href="https://github.com/itsPinguiz/InformaticaUniurb/tree/main/1_Primo%20Anno/AA%202023/0_Reti%20Logiche%20(9CFU)">[2023]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
         </small>
       </td>
       <td>
@@ -35,7 +40,15 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Appunti, Progetto</td>
     </tr>
     <tr>
-      <td>Programmazione Procedurale</td>
+      <td>Programmazione Procedurale<br>
+        <small>
+          <a href="https://github.com/itsPinguiz/InformaticaUniurb/tree/main/1_Primo%20Anno/AA%202021/0_Programmazione%20Procedurale%20(9CFU)">[2021]</a>
+          <a href="https://github.com/itsPinguiz/InformaticaUniurb/tree/main/1_Primo%20Anno/AA%202022/0_Programmazione%20Procedurale%20(9CFU)">[2022]</a>
+          <a href="https://github.com/itsPinguiz/InformaticaUniurb/tree/main/1_Primo%20Anno/AA%202023/0_Programmazione%20Procedurale%20(9CFU)">[2023]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
         <a href="https://github.com/root2215"><img src="https://avatars.githubusercontent.com/u/96025919?v=4?s=50" width="50px;" alt="Giuseppe"/></a>
@@ -44,7 +57,15 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Appunti, Progetto</td>
     </tr>
     <tr>
-      <td>Logica Algebra e Geometria</td>
+      <td>Logica Algebra e Geometria<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/root2215"><img src="https://avatars.githubusercontent.com/u/96025919?v=4?s=50" width="50px;" alt="Giuseppe"/></a>
         <a href="https://github.com/Arlind-Pecmarkaj"><img src="https://avatars.githubusercontent.com/u/95414401?v=4?s=50" width="50px;" alt="Arlind Pecmarkaj"/></a>
@@ -52,7 +73,15 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Appunti</td>
     </tr>
     <tr>
-      <td>Analisi 1</td>
+      <td>Analisi 1<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
         <a href="https://github.com/root2215"><img src="https://avatars.githubusercontent.com/u/96025919?v=4?s=50" width="50px;" alt="Giuseppe"/></a>
@@ -61,7 +90,15 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Esercizi Svolti, Appunti</td>
     </tr>
     <tr>
-      <td>Algoritmi e Strutture Dati</td>
+      <td>Algoritmi e Strutture Dati<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
         <a href="https://github.com/root2215"><img src="https://avatars.githubusercontent.com/u/96025919?v=4?s=50" width="50px;" alt="Giuseppe"/></a>
@@ -69,7 +106,15 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Appunti, Progetto</td>
     </tr>
     <tr>
-      <td>Architettura degli Elaboratori</td>
+      <td>Architettura degli Elaboratori<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
         <a href="https://github.com/root2215"><img src="https://avatars.githubusercontent.com/u/96025919?v=4?s=50" width="50px;" alt="Giuseppe"/></a>
@@ -78,7 +123,15 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Appunti, Progetto</td>
     </tr>
     <tr>
-      <td>Umano Digitale</td>
+      <td>Umano Digitale<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
         <a href="https://github.com/Arlind-Pecmarkaj"><img src="https://avatars.githubusercontent.com/u/95414401?v=4?s=50" width="50px;" alt="Arlind Pecmarkaj"/></a>
@@ -100,7 +153,15 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
   </thead>
   <tbody>
     <tr>
-      <td>Analisi 2</td>
+      <td>Analisi 2<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
         <a href="https://github.com/root2215"><img src="https://avatars.githubusercontent.com/u/96025919?v=4?s=50" width="50px;" alt="Giuseppe"/></a>
@@ -109,14 +170,30 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Appunti, Esercizi Svolti</td>
     </tr>
     <tr>
-      <td>Probabilità e Statistica</td>
+      <td>Probabilità e Statistica<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/root2215"><img src="https://avatars.githubusercontent.com/u/96025919?v=4?s=50" width="50px;" alt="Giuseppe"/></a>
       </td>
       <td>Appunti, Calcolatore gaussiana</td>
     </tr>
     <tr>
-      <td>Sistemi Operativi</td>
+      <td>Sistemi Operativi<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/root2215"><img src="https://avatars.githubusercontent.com/u/96025919?v=4?s=50" width="50px;" alt="Giuseppe"/></a>
         <a href="https://github.com/Arlind-Pecmarkaj"><img src="https://avatars.githubusercontent.com/u/95414401?v=4?s=50" width="50px;" alt="Arlind Pecmarkaj"/></a>
@@ -124,7 +201,15 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Appunti(non completi), Vecchi esami svolti</td>
     </tr>
     <tr>
-      <td>Programmazione e Modellazione ad Oggetti</td>
+      <td>Programmazione e Modellazione ad Oggetti<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
         <a href="https://github.com/luisfrasheri99"><img src="https://avatars.githubusercontent.com/u/119542262?v=4?s=50" width="50px;" alt="Luis Frasheri"/></a>
@@ -133,14 +218,30 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Appunti, Progetto</td>
     </tr>
     <tr>
-      <td>Elaborazione Numerica dei Segnali</td>
+      <td>Elaborazione Numerica dei Segnali<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
       </td>
       <td>Esercizi Svolti, Appunti</td>
     </tr>
     <tr>
-      <td>Fisica Generale</td>
+      <td>Fisica Generale<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
         <a href="https://github.com/Arlind-Pecmarkaj"><img src="https://avatars.githubusercontent.com/u/95414401?v=4?s=50" width="50px;" alt="Arlind Pecmarkaj"/></a>
@@ -148,14 +249,30 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Appunti, Esercizi Svolti</td>
     </tr>
     <tr>
-      <td>Ingegneria e Architettura del Software</td>
+      <td>Ingegneria e Architettura del Software<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/alexiob1"><img src="https://avatars.githubusercontent.com/u/12350?v=4?s=50" width="50px;" alt="Alessio Biagi"/></a>
       </td>
       <td>Appunti</td>
     </tr>
     <tr>
-      <td>Simulazione Numerica dei Segnali</td>
+      <td>Simulazione Numerica dei Segnali<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
       </td>
@@ -176,14 +293,30 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
   </thead>
   <tbody>
     <tr>
-      <td>Reti di Calcolatori</td>
+      <td>Reti di Calcolatori<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
       </td>
       <td>Appunti, Progetto</td>
     </tr>
     <tr>
-      <td>Linguaggi di Programmazione e Verifica del Software</td>
+      <td>Linguaggi di Programmazione e Verifica del Software<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
         <a href="https://github.com/luisfrasheri99"><img src="https://avatars.githubusercontent.com/u/119542262?v=4?s=50" width="50px;" alt="Luis Frasheri"/></a>
@@ -192,7 +325,15 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Progetto, Appunti</td>
     </tr>
     <tr>
-      <td>Basi di Dati</td>
+      <td>Basi di Dati<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/Arlind-Pecmarkaj"><img src="https://avatars.githubusercontent.com/u/95414401?v=4?s=50" width="50px;" alt="Arlind Pecmarkaj"/></a>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
@@ -200,14 +341,30 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
       <td>Riassunto completo, Progetto</td>
     </tr>
     <tr>
-      <td>Sistemi per l'Internet Of Things</td>
+      <td>Sistemi per l'Internet Of Things<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
       </td>
       <td>Relazione, Appunti</td>
     </tr>
     <tr>
-      <td>Programmazione Logica e Funzionale</td>
+      <td>Programmazione Logica e Funzionale<br>
+        <small>
+          <a href="#">[2020]</a>
+          <a href="#">[2021]</a>
+          <a href="#">[2022]</a>
+          <a href="#">[2023]</a>
+          <a href="#">[2024]</a>
+        </small>
+      </td>
       <td>
         <a href="https://github.com/Arlind-Pecmarkaj"><img src="https://avatars.githubusercontent.com/u/95414401?v=4?s=50" width="50px;" alt="Arlind Pecmarkaj"/></a>
         <a href="https://github.com/itsPinguiz"><img src="https://avatars.githubusercontent.com/u/93825368?v=4?s=50" width="50px;" alt="Stefano Zizzi"/></a>
@@ -216,7 +373,6 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
     </tr>
   </tbody>
 </table>
-
 
 ## Contribuisci
 
