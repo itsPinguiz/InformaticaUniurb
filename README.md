@@ -1,7 +1,8 @@
 # Dispense e Progetti di Informatica - Uniurb
 
 <a href="https://informatica.uniurb.it/triennale/">
-  <img src="https://scontent.ftrn2-1.fna.fbcdn.net/v/t39.30808-6/371113052_873026684328361_845104566023333485_n.png?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=RqPku_rUnQIQ7kNvgG07DB0&_nc_zt=23&_nc_ht=scontent.ftrn2-1.fna&_nc_gid=AaNoWDiXnNNJTzC20wButdc&oh=00_AYDt55x5EBf7oNGM53EupFACNooG3ebHuIxfinKYw1eI3w&oe=6713EF73" alt="Banner della mia Università" width="1100px">
+  <img src="https://informatica.uniurb.it/assets/desktop_1.jpg" alt="Banner della mia Università" width="500px">
+  <img src="https://informatica.uniurb.it/assets/desktop_2.jpg" alt="Banner della mia Università" width="500px">
 </a>
 
 Benvenuto nel repository degli appunti di informatica dell'università! Questo spazio è dedicato a raccogliere e condividere appunti presi durante corsi di informatica universitaria. Sentiti libero di esplorare i contenuti e, se lo desideri, contribuire migliorando o aggiungendo nuovi appunti.
