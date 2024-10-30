@@ -1,15 +1,57 @@
-# Dispense e Progetti di Informatica - Uniurb
+<a id="readme-top"></a>
 
-<a href="https://informatica.uniurb.it/triennale/">
-  <img src="https://informatica.uniurb.it/assets/desktop_1.jpg" alt="Banner della mia Università" width="500px">
-  <img src="https://informatica.uniurb.it/assets/desktop_2.jpg" alt="Banner della mia Università" width="500px">
-</a>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Benvenuto nel repository degli appunti di informatica dell'università! Questo spazio è dedicato a raccogliere e condividere appunti presi durante corsi di informatica universitaria. Sentiti libero di esplorare i contenuti e, se lo desideri, contribuire migliorando o aggiungendo nuovi appunti.
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="https://informatica.uniurb.it/triennale/wp-content/themes/sti/images/cdl_informatica_applicata.png" alt="Logo" width="400">
+  </a>
 
-## Contenuti Presenti
+  <h3 align="center">Dispense e Progetti di Informatica - Uniurb</h3>
 
-### Primo Anno
+  <p align="center">
+    Repository degli Appunti di Informatica Uniurb
+    <br />
+    <a href="https://informatica.uniurb.it"><strong>Vai al sito »</strong></a>
+    <br />
+    <br />
+    <a href="https://www.youtube.com/@infoapplurbino7930/videos">YouTube</a>
+    ·
+    <a href="https://www.instagram.com/informaticauniurb/">Instagram</a>
+    ·
+    <a href="https://github.com/itsPinguiz/InformaticaUniurb/discussions">Discussioni</a>
+  </p>
+</div>
+
+Benvenuto nel repository degli appunti di informatica dell'università! Questo spazio è dedicato a raccogliere e condividere appunti presi durante corsi di informatica all'Universitá degli Studi di Urbino. Sentiti libero di esplorare i contenuti e, se lo desideri, contribuire migliorando o aggiungendone di nuovi.
+
+<details>
+  <summary>Indice</summary>
+  <ol>
+    <li>
+      <a href="#contenuti-presenti">Contenuti Presenti</a>
+      <ul>
+        <li><a href="#primo-anno">Primo Anno</a></li>
+        <li><a href="#secondo-anno">Secondo Anno</a></li>
+        <li><a href="#terzo-anno">Terzo Anno</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#contribuisci">Contribuisci</a>
+      <ul>
+        <li><a href="#struttura-file">Struttura File</a></li>
+      </ul>
+    </li>
+    <li><a href="#avvertenze">Avvertenze</a></li>
+  </ol>
+</details>
+
 ## Contenuti Presenti
 
 ### Primo Anno
@@ -375,6 +417,8 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
   </tbody>
 </table>
 
+<p align="right">(<a href="#readme-top">torna in cima</a>)</p>
+
 ## Contribuisci
 
 Se desideri contribuire a questo repository, puoi farlo attraverso le pull request. Segui questi passaggi:
@@ -423,6 +467,8 @@ Esempio:
 - Se carichi un progetto, è preferibile che tu comunichi anche la sua valutazione. (Esempio: `Progetto [Voto]`).
 - Quando carichi qualcosa di nuovo, aggiungi il tuo nome, e cosa hai aggiunto nella tabella dei contenuti (`README.md`).
 
+<p align="right">(<a href="#readme-top">torna in cima</a>)</p>
+
 ## Avvertenze
 
 - Gli appunti qui presenti sono creati dagli studenti e potrebbero contenere errori o incompletezze. Non sostituiscono le lezioni ufficiali.
@@ -432,3 +478,27 @@ Esempio:
 _I seguenti materiali sono rilasciati sotto la [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)_.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Cc-by-nc-sa_icon.svg/2560px-Cc-by-nc-sa_icon.svg.png" width="100">
+
+<p align="right">(<a href="#readme-top">torna in cima</a>)</p>
+
+
+[![Contributors]()]()
+[![Forks]()]()
+[![Stargazers]()]()
+[![Issues]()]()
+[![MIT License]()]()
+[![LinkedIn]()](https://linkedin.com/in/your-profile)
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/itsPinguiz/InformaticaUniurb.svg?style=for-the-badge
+[contributors-url]: https://github.com/itsPinguiz/InformaticaUniurb/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/itsPinguiz/InformaticaUniurb.svg?style=for-the-badge
+[forks-url]: https://github.com/itsPinguiz/InformaticaUniurb/network/members
+[stars-shield]: https://img.shields.io/github/stars/itsPinguiz/InformaticaUniurb.svg?style=for-the-badge
+[stars-url]: https://github.com/itsPinguiz/InformaticaUniurb/stargazers
+[issues-shield]: https://img.shields.io/github/issues/itsPinguiz/InformaticaUniurb.svg?style=for-the-badge
+[issues-url]: https://github.com/itsPinguiz/InformaticaUniurb/issues
+[license-shield]: https://img.shields.io/github/license/itsPinguiz/InformaticaUniurb.svg?style=for-the-badge
+[license-url]: https://github.com/itsPinguiz/InformaticaUniurb/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin
+[linkedin-url]: https://www.linkedin.com/in/stefano-zizzi-a147961b4/
