@@ -481,15 +481,6 @@ _I seguenti materiali sono rilasciati sotto la [Creative Commons Attribution-Non
 
 <p align="right">(<a href="#readme-top">torna in cima</a>)</p>
 
-
-[![Contributors]()]()
-[![Forks]()]()
-[![Stargazers]()]()
-[![Issues]()]()
-[![MIT License]()]()
-[![LinkedIn]()](https://linkedin.com/in/your-profile)
-
-
 [contributors-shield]: https://img.shields.io/github/contributors/itsPinguiz/InformaticaUniurb.svg?style=for-the-badge
 [contributors-url]: https://github.com/itsPinguiz/InformaticaUniurb/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/itsPinguiz/InformaticaUniurb.svg?style=for-the-badge
@@ -501,4 +492,4 @@ _I seguenti materiali sono rilasciati sotto la [Creative Commons Attribution-Non
 [license-shield]: https://img.shields.io/github/license/itsPinguiz/InformaticaUniurb.svg?style=for-the-badge
 [license-url]: https://github.com/itsPinguiz/InformaticaUniurb/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin
-[linkedin-url]: https://www.linkedin.com/in/stefano-zizzi-a147961b4/
+[linkedin-url]: https://www.linkedin.com/in/zizzi-stefano/
