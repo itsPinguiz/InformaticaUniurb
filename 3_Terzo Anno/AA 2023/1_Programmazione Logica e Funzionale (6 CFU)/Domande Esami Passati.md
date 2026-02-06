@@ -1,5 +1,31 @@
 **Prolog Prove Passate:**
 
+**17/07/2025**
+
+1. Spiegare la differenza tra programmazione procedurale e programmazione a oggetti. (punti 2\)
+2. Esibire le definizioni di riflessività, simmetria e transitività di una relazione. (punti 2\)
+3. Esibire le tre regole che definiscono la semantica del lamba calcolo. (punti 2\)
+4. Spiegare gli operatori . e $ di Haskell. (punti 2\)
+5. Esibire 5 regole di inferenza della deduzione naturale di Gentzen. (punti 2\)
+6. Esibire la definizione dell'applicazione di una sostituzione sintattica a un termine (non una formula) di logica dei predicati. (punti 2\)
+7. Enunciare il lifting lemma. (punti 2\)
+8. Spiegare la differenza tra significato dichiarativo e significato procedurale di una regola in Prolog. (punti 2\)
+9. Scrivere una funzione Haskell che calcola la media geometrica di una lista di numeri positivi, in stile dichiarativo puro. (punti 7\)
+10. Scrivere un predicato Prolog che calcola il minimo dei secondi elementi di una lista di coppie di numeri positivi, in stile dichiarativo puro. (punti 7\)
+
+**03/07/2025**
+
+1. Spiegare la differenza tra programmazione funzionale e programmazione logica. (punti 2\)
+2. Esibire le definizioni di antiriflessività, antisimmetria e dicotomia di una relazione. (punti 2\)
+3. Cos'è il currying? (punti 2\)
+4. Spiegare la chiamata per necessità e la valutazione pigra degli argomenti. (punti 2\)
+5. Esibire la regola di inferenza e un assioma di un sistema deduttivo alla Hilbert. (punti 2\)
+6. Spiegare cos'è un ambiente in logica dei predicati. (punti 2\)
+7. Descrivere l'algoritmo di refutazione basato sulla risoluzione di Robinson. (punti 2\)
+8. Spiegare come avviene l'esecuzione di un programma Prolog su un obiettivo. (punti 2\)
+9. Scrivere una funzione Haskell che scarta da una lista di numeri interi tutti i multipli dispari di 5, in stile dichiarativo puro. (ounti 7\)
+10. Scrivere un predicato Prolog che calcola la media aritmetica di una lista di numeri positivi, in stile dichiarativo puro. (punti 7\)
+
 **19/09/2024:**
 
 1. Qual è la differenza tra sintassi e semantica di un linguaggio di programmazione? (punti 2\)  
