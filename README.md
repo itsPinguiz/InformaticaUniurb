@@ -419,10 +419,6 @@ Benvenuto nel repository degli appunti di informatica dell'università! Questo s
 
 <p align="right">(<a href="#readme-top">torna in cima</a>)</p>
 
-## Risorsa integrativa
-
-Per approfondire lo sviluppo web con TypeScript è disponibile la [guida italiana gratuita a TypeScript](https://gibbok.github.io/typescript-book/it-it/).
-
 ## Contribuisci
 
 Se desideri contribuire a questo repository, puoi farlo attraverso le pull request. Segui questi passaggi:
