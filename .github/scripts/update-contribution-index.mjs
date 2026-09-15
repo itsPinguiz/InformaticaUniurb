@@ -30,16 +30,13 @@ for (const file of files) {
 }
 
 const labels = { 1: 'Primo Anno', 2: 'Secondo Anno', 3: 'Terzo Anno' };
-let index = '';
+let index = '| Anno | Corso | Anni accademici | Materiale |\n| --- | --- | --- | --- |\n';
 for (const year of ['1', '2', '3']) {
   const entries = [...courses.values()].filter(x => x.year === year).sort((a, b) => a.course.localeCompare(b.course, 'it'));
-  if (!entries.length) continue;
-  index += `### ${labels[year]}\n\n| Corso | Anni accademici | Materiale |\n| --- | --- | --- |\n`;
   for (const entry of entries) {
     const years = [...entry.folders.entries()].sort(([a], [b]) => a.localeCompare(b)).flatMap(([academicYear, folders]) => [...folders].sort().map(folder => `[${academicYear}](https://github.com/itsPinguiz/InformaticaUniurb/tree/main/${entry.year}_${encodeURIComponent(entry.label)}/AA%20${academicYear}/${encodeURIComponent(folder)})`)).join(', ');
-    index += `| ${entry.course} | ${years} | ${[...entry.types].sort().join(', ')} |\n`;
+    index += `| ${labels[year]} | ${entry.course} | ${years} | ${[...entry.types].sort().join(', ')} |\n`;
   }
-  index += '\n';
 }
 
 let text = readFileSync(page, 'utf8').replace(/<!-- CONTENTS-INDEX:START -->[\s\S]*?<!-- CONTENTS-INDEX:END -->/, `<!-- CONTENTS-INDEX:START -->\n${index.trim()}\n<!-- CONTENTS-INDEX:END -->`);
