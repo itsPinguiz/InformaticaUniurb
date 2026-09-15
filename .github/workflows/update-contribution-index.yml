@@ -1,0 +1,52 @@
+name: Update contribution index
+
+on:
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-index:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check whether the pull request changes teaching material
+        id: material
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          result-encoding: string
+          script: |
+            const files = await github.paginate(github.rest.pulls.listFiles, { owner: context.repo.owner, repo: context.repo.repo, pull_number: context.payload.pull_request.number, per_page: 100 });
+            return files.some(({ filename }) => /^[123]_[^/]+\/AA \d{4}\//.test(filename));
+
+      - name: Build the index
+        if: github.event_name == 'workflow_dispatch' || steps.material.outputs.result == 'true'
+        env:
+          CONTRIBUTOR_LOGIN: ${{ github.event.pull_request.user.login }}
+        run: node .github/scripts/update-contribution-index.mjs
+
+      - name: Create an index-update pull request
+        if: github.event_name == 'workflow_dispatch' || steps.material.outputs.result == 'true'
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          UPDATE_BRANCH: automation/update-index-${{ github.event.pull_request.number || github.run_id }}
+        run: |
+          git diff --quiet CONTRIBUTING.md && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$UPDATE_BRANCH"
+          git add CONTRIBUTING.md
+          git commit -m "docs: update material index and contributors"
+          git push --set-upstream origin "$UPDATE_BRANCH"
+          gh pr create --base "$DEFAULT_BRANCH" --head "$UPDATE_BRANCH" --title "docs: update material index and contributors" --body "Automated update after a merged material contribution."
