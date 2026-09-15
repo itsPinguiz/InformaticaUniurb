@@ -7,8 +7,11 @@ const addedFiles = execFileSync('git', ['diff', '--name-only', '--diff-filter=A'
 const allowedRootFiles = new Set(['README.md', 'CONTRIBUTING.md', 'LICENSE', '.gitignore', '.gitattributes']);
 const coursePath = /^[123]_(?:Primo|Secondo|Terzo) Anno\/AA \d{4}\/\d+(?:-\d+)?_.+ \(\d+ CFU\)\/.+$/;
 const errors = [];
+const maxFileSize = 50 * 1024 * 1024;
 
 for (const file of addedFiles) {
+  const size = Number(execFileSync('git', ['cat-file', '-s', 'HEAD:' + file], { encoding: 'utf8' }));
+  if (size > maxFileSize) errors.push(file + ' — il file supera il limite di 50 MB; riducine le dimensioni o suddividilo.');
   if (file.startsWith('.github/') || allowedRootFiles.has(file)) continue;
   const existingCourse = file.split('/').slice(0, 3).join('/');
   try {
