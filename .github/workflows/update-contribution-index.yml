@@ -1,9 +1,14 @@
 name: Update contribution index
 
 on:
-  pull_request:
+  pull_request_target:
     types: [closed]
   workflow_dispatch:
+    inputs:
+      contributor_login:
+        description: 'GitHub username to add when rebuilding the index manually'
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -32,7 +37,7 @@ jobs:
       - name: Build the index
         if: github.event_name == 'workflow_dispatch' || steps.material.outputs.result == 'true'
         env:
-          CONTRIBUTOR_LOGIN: ${{ github.event.pull_request.user.login }}
+          CONTRIBUTOR_LOGIN: ${{ github.event.pull_request.user.login || inputs.contributor_login }}
         run: node .github/scripts/update-contribution-index.mjs
 
       - name: Create an index-update pull request
