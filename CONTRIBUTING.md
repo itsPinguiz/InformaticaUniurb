@@ -40,6 +40,7 @@ Chi apre una pull request che aggiunge materiale didattico viene registrato qui 
 | Arlind Pecmarkaj | [@Arlind-Pecmarkaj](https://github.com/Arlind-Pecmarkaj) |
 | Luis Frasheri | [@luisfrasheri99](https://github.com/luisfrasheri99) |
 | Alessio Biagi | [@alexiob1](https://github.com/alexiob1) |
+| gibbok | [@gibbok](https://github.com/gibbok) |
 <!-- CONTRIBUTORS:END -->
 
 ## Come contribuire
