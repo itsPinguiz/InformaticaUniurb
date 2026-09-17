@@ -1,0 +1,25 @@
+name: Segnala materiale errato
+description: Segnala un errore, un link non funzionante o materiale da correggere.
+title: "[Materiale] "
+body:
+  - type: input
+    id: course
+    attributes:
+      label: Corso e anno accademico
+      placeholder: Es. Programmazione Procedurale — AA 2025
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link o percorso del materiale
+      placeholder: Incolla il link alla cartella o al file interessato.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema riscontrato
+      description: Descrivi l'errore o il materiale da correggere.
+    validations:
+      required: true

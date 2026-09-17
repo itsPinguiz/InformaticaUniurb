@@ -1,0 +1,28 @@
+name: Richiedi materiale
+description: Richiedi appunti, esercizi o altri materiali per un corso.
+title: "[Richiesta] "
+body:
+  - type: input
+    id: course
+    attributes:
+      label: Corso e anno accademico
+      placeholder: Es. Basi di Dati — AA 2026
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Materiale richiesto
+      options:
+        - Appunti
+        - Esercizi svolti
+        - Esami passati
+        - Progetto
+        - Altro
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Dettagli aggiuntivi
+      description: Aggiungi informazioni utili, se disponibili.
